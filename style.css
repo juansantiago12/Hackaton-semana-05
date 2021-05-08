@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+.firstSection {
+  min-height: 90vh;
+  background-color: black;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border: 8px solid white;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.header {
+  background-color: rgb(31, 29, 29);
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  width: 50%;
+}
+.navigationList {
+  display: flex;
+  justify-content: space-between;
+}
+.button-1 {
+  font-size: 1em;
+  padding: 10px;
+  background-color: #0cac97;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+  color: white;
+}
+.main {
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4em;
+}
+.mainContent {
+  width: 40%;
+}
+.main h1 {
+  color: white;
+  font-size: 3em;
+  padding-bottom: 16px;
+}
+.main p {
+  color: white;
+  line-height: 1.6;
+  opacity: 0.5;
+  padding-bottom: 2em;
+}
+.button-2 {
+  font-size: 1em;
+  padding: 10px;
+  background-color: #0cac97;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-right: 10px;
+}
+.button-3 {
+  font-size: 1em;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid #0cac97;
+  border-radius: 4px;
+  color: white;
+}
+.banner {
+  width: 350px;
+  height: 350px;
+  border: 3px solid #0cac97;
+  border-radius: 50%;
+}
+.secondSection {
+  min-height: 100vh;
+  background-color: black;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+}
+.container {
+  width: 95%;
+  height: 500px;
+  background-color: #111a19;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.collage-1 {
+  width: 30%;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.collage-1 div {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #0cac97;
+  border-radius: 50%;
+}
+.container p {
+  color: white;
+  opacity: 0.5;
+  width: 70%;
+  text-align: center;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container h4 {
+  padding-top: 32px;
+  color: #0cac97;
+  text-align: center;
+  font-size: 0.8em;
+}
+.indicatorList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.indicator {
+  width: 150px;
+  height: 80px;
+}
+.indicator p {
+  font-size: 2em;
+  color: white;
+  opacity: 1;
+  padding-bottom: 10px;
+}
+.indicator h3 {
+  font-size: 0.8em;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+.thirdSection {
+  min-height: 90vh;
+  background-color: black;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thirdSection p {
+  color: white;
+  font-size: 1em;
+  opacity: 0.5;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+.collage-2 {
+  width: 50%;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.collage-item {
+  width: 35px;
+  margin-right: 35px;
+}
+.container-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3em;
+}
+.get {
+  background-color: #111a19;
+  width: 45%;
+  height: 250px;
+  padding-top: 3em;
+  text-align: center;
+}
+.get-img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #0cac97;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.get h4 {
+  color: #0cac97;
+  font-size: 0.8em;
+  padding-top: 1em;
+}
+.get h3 {
+  color: white;
+  font-size: 1em;
+  padding-top: 1em;
+}
+.footer {
+  min-height: 200px;
+  background-color: rgb(31, 29, 29);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.footerList {
+  color: white;
+  font-size: 0.8em;
+  opacity: 0.5;
+  line-height: 1.6;
+  display: flex;
+  width: 60%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
